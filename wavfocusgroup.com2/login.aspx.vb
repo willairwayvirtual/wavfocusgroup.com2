@@ -26,7 +26,7 @@ Partial Class login
         If result > 0 Then
 
 
-            Response.Redirect("focusgroupstratus")
+            Response.Redirect("")
         Else
             Label2.Text = "YOU DONT EXIST"
         End If
