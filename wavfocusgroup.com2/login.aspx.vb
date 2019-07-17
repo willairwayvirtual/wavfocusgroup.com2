@@ -31,5 +31,5 @@ Partial Class login
             Label2.Text = "YOU DONT EXIST"
         End If
     End Sub
-    End Sub
+
 End Class
