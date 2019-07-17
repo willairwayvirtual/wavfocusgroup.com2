@@ -26,7 +26,7 @@ Partial Class login
         If result > 0 Then
 
 
-            Response.Redirect("")
+            Response.Redirect("downloads Center.aspx")
         Else
             Label2.Text = "YOU DONT EXIST"
         End If
