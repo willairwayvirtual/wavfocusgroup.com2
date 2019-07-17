@@ -32,12 +32,17 @@
             </span>
             <br />
         </div>
-    </form>
-    <div class="auto-style3">
-        <span class="auto-style12"> <br />
+        <div class="auto-style3">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="164px" Width="1248px">
+                <Columns>
+                    <asp:BoundField DataField="whats_happening" HeaderText="whats_happening" SortExpression="whats_happening" />
+                    <asp:BoundField DataField="when" HeaderText="when" SortExpression="when" />
+                </Columns>
+            </asp:GridView>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [whats happening] AS whats_happening, [when] FROM [Developer news]"></asp:SqlDataSource>
+            <span class="auto-style12"> <br />
             </div>
+    </form>
             </span>
-    <p class="auto-style3">
-        &nbsp;</p>
 </body>
 </html>
