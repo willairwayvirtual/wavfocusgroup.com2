@@ -1,9 +1,9 @@
 ﻿Imports System.Data.OleDb
 Partial Class login
     Inherits System.Web.UI.Page
-    Dim cn As New OleDbConnection("Provider=Microsoft.ace.Oledb.12.0;Data Source=" & Server.MapPath("\wav web\willairwayvirtual34\willairwayvirtual34\app_datawillairwayvirtualDbv1.accdb"))
+    Dim cn As New OleDbConnection("Provider=Microsoft.ace.Oledb.12.0;Data Source=" & Server.MapPath("willairwayvirtual34\willairwayvirtual34\app_data\willairwayvirtualDbv1.accdb"))
     Private Sub Button1l_Click(sender As Object, e As EventArgs) Handles Button1l.Click
-        Dim lastName As String
+        ' Dim lastName As String
         Dim query As String
         query = "select count (*) from tblaccessinfo where uname = ? and pword = ?"
         Dim result As Integer = 0

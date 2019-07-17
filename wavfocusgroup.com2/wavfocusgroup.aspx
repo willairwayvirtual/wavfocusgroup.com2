@@ -13,10 +13,6 @@
             font-size: xx-large;
             text-decoration: underline;
         }
-        .auto-style14 {
-            text-align: center;
-            font-size: larger;
-        }
         .auto-style15 {
             font-size: xx-large;
         }
@@ -26,16 +22,12 @@
     <form id="form1" runat="server">
         <div class="auto-style1">
             <span class="auto-style12"><strong>Welcome to Willairways Virtual</strong></span><o:p></o:p><span class="auto-style12"> focusgroup<br />
-            <p class="auto-style1">
-                <strong>Willairways Virtual</strong><o:p></o:p> focusgroup is you test mews version
-            </p>
-            <p class="auto-style14">
-                <asp:Label ID="Label2" runat="server" CssClass="auto-style13" Font-Names="Calibri" style="font-size: xx-large" Text=" Established in 2018 Willairways Virtual focusgroup is the&nbsp;most popular&nbsp;flight simulation community."></asp:Label>
-                <asp:Label ID="Label3" runat="server" CssClass="auto-style15" Font-Names="Calibri" style="font-size: xx-large" Text="Through partnership with the global Virtual Air Traffic Simulation Network (VATSIM) and, more recently, the International Virtual Aviation Organisation (IVAO)"></asp:Label>
-            </p>
-            </span>
-        </div>
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style15" Height="141px" Text="log in" Width="1263px" />
+            Welcome to the WAV Focus Group<br />
+            <br />
+            You are now a Beta Tester for WillAirwaysVirtual<br />
+            <br />
+            Please log in and start testing !!</span></div>
+        <asp:Button ID="Button1" runat="server" CssClass="auto-style15" Height="141px" Text=" start testing !!" Width="1263px" />
     </form>
 </body>
 </html>
