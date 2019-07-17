@@ -6,24 +6,38 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
+        .auto-style2 {
+            font-size: xx-large;
+        }
+        .auto-style3 {
             text-align: center;
         }
         .auto-style12 {
             font-size: xx-large;
             text-decoration: underline;
         }
+        .auto-style1 {
+            text-align: center;
+        }
         </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="auto-style1">
-            <span class="auto-style12"><strong>Welcome to Willairways Virtual</strong></span><o:p></o:p><span class="auto-style12"> focusgroup<br />
+        <div>
+            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style2" LoginText="Logout" />
+            <span class="auto-style12"> 
             <p class="auto-style1">
                 <strong>Willairways Virtual</strong><o:p></o:p> focusgroup is you test mews version
             </p>
             </span>
+            <br />
         </div>
     </form>
+    <div class="auto-style3">
+        <span class="auto-style12"> <br />
+            </div>
+            </span>
+    <p class="auto-style3">
+        &nbsp;</p>
 </body>
 </html>
