@@ -20,12 +20,15 @@
         .auto-style15 {
             font-size: xx-large;
         }
-        .auto-style16 {
-            font-size: large;
-            margin-right: 0px;
-        }
         .auto-style17 {
-            font-size: large;
+            width: 100%;
+        }
+        .auto-style18 {
+            width: 452px;
+        }
+        .auto-style19 {
+            width: 452px;
+            font-size: x-large;
         }
     </style>
 </head>
@@ -45,11 +48,21 @@
                 <asp:Label ID="Label3" runat="server" CssClass="auto-style15" Font-Names="Calibri" style="font-size: xx-large" Text="Through partnership with the global Virtual Air Traffic Simulation Network (VATSIM) and, more recently, the International Virtual Aviation Organisation (IVAO)"></asp:Label>
             </p>
             </span>
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style17" Height="207px" Text="Willairways Virtual focusgroup is you test mews version now" Width="577px" />
-        <asp:Button ID="Button2" runat="server" CssClass="auto-style16" Height="205px" Text="Willairways Virtua add-ons" Width="519px" />
         <p class="auto-style12">
             <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Logout" />
         </p>
+        <table class="auto-style17">
+            <tr>
+                <td class="auto-style19">Willairways Virtual focusgroup is you test mews version now</td>
+                <td>
+                    <asp:Button ID="Button1" runat="server" Height="61px" Text="downloads" Width="815px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
