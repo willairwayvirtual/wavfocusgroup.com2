@@ -29,5 +29,7 @@
             Please log in and start testing !!</span></div>
         <asp:Button ID="Button1" runat="server" CssClass="auto-style15" Height="141px" Text=" start testing !!" Width="1263px" />
     </form>
+    <p class="auto-style15">
+        <span style="font-family: &quot;Calibri&quot;,sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">If you want to join the focus group, please contact at wavuserhelpdesk@hotmail.com</span></p>
 </body>
 </html>
