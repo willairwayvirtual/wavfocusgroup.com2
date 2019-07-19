@@ -28,7 +28,11 @@
         }
         .auto-style19 {
             width: 452px;
-            font-size: x-large;
+            font-size: large;
+            height: 41px;
+        }
+        .auto-style20 {
+            height: 41px;
         }
     </style>
 </head>
@@ -54,7 +58,7 @@
         <table class="auto-style17">
             <tr>
                 <td class="auto-style19">Willairways Virtual focusgroup is you test mews version now</td>
-                <td>
+                <td class="auto-style20">
                     <asp:Button ID="Button1" runat="server" Height="61px" Text="downloads" Width="815px" />
                 </td>
             </tr>
