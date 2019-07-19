@@ -17,7 +17,7 @@
             font-size: xx-large;
         }
         .auto-style16 {
-            font-size: medium;
+            font-size: x-large;
         }
     </style>
 </head>
