@@ -66,7 +66,6 @@
             <div class="auto-style10">
                 Welcome to Willairways Virtual <span class="auto-style12">focusgroup </span>please enter you username and password
                 <br />
-                if you have wav Account for <span class="auto-style12">focusgroup </span>please enter your username and password
             </div>
             <table class="auto-style2">
                 <tr>
