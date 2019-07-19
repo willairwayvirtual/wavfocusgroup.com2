@@ -32,4 +32,7 @@ Partial Class login
         End If
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Response.Redirect("ResetPasswordaspx.aspx")
+    End Sub
 End Class

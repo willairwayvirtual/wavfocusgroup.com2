@@ -91,9 +91,10 @@
             <asp:Button ID="Button1l" runat="server" BackColor="#FF9900" CssClass="auto-style6" Height="41px" Text="Login" Width="722px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
-    </form>
     <p class="auto-style11">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" BackColor="#FF9900" CssClass="auto-style12" Text="ResetPasswordas" Width="727px" />
     </p>
-</body>
+    </form>
+    </body>
 </html>
