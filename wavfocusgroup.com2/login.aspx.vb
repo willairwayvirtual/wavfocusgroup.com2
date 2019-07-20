@@ -1,7 +1,7 @@
 ﻿Imports System.Data.OleDb
 Partial Class login
     Inherits System.Web.UI.Page
-    Dim cn As New OleDbConnection("Provider=Microsoft.ace.Oledb.12.0;Data Source=" & Server.MapPath("willairwayvirtual34\willairwayvirtual34\app_data\willairwayvirtualDbv1.accdb"))
+    Dim cn As New OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0;Data Source=C:\VisStudioProj\wav web\wavfocusgroup.com2\wavfocusgroup.com2\app_data\WAVFocusGroup.accdb")
     Private Sub Button1l_Click(sender As Object, e As EventArgs) Handles Button1l.Click
         ' Dim lastName As String
         Dim query As String
